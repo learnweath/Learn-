@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ls Ad Agency - Meta Ads Expert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-section container">
+            <img src="ls_ad_logo.jpeg" alt="Ls Ad Agency Logo" class="logo-image">
+            <h1>Ls Ad Agency</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Your **Meta Ads Expert** for Instant & Profitable Growth.</h2>
+            <p>Facebook & Instagram Ads Setup, Optimized for Conversions.</p>
+        </div>
+    </section>
+
+    <section class="packages-section">
+        <div class="container">
+            <h2>⚡ Choose Your Fast-Track Setup Plan ⚡</h2>
+            <div class="packages">
+
+                <div class="package-card">
+                    <h3>Quick Start</h3>
+                    <div class="days">2 Days Setup</div>
+                    <div class="price">₹99</div>
+                    <p>Ideal for testing and budget-friendly immediate setup.</p>
+                    <button class="buy-button" onclick="openOrderForm('Quick Start', '99')">
+                        BUY NOW
+                    </button>
+                </div>
+
+                <div class="package-card">
+                    <h3>Optimized Launch</h3>
+                    <div class="days">7 Days Management</div>
+                    <div class="price">₹299</div>
+                    <p>Basic optimization and monitoring for initial stability.</p>
+                    <button class="buy-button" onclick="openOrderForm('Optimized Launch', '299')">
+                        BUY NOW
+                    </button>
+                </div>
+
+                <div class="package-card">
+                    <h3>Full Service</h3>
+                    <div class="days">30 Days Campaign</div>
+                    <div class="price">₹699</div>
+                    <p>In-depth campaign management and scaling for best results.</p>
+                    <button class="buy-button" onclick="openOrderForm('Full Service', '699')">
+                        BUY NOW
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="order-form-section">
+        <div class="container">
+            <h2>Complete Your **Dream Order**</h2>
+            <div class="order-form">
+                <p>You have selected: <strong id="selected-package"></strong> for <strong id="selected-price"></strong></p>
+                <form id="order-submission-form" action="#" method="POST">
+                    <input type="hidden" id="package-input" name="package">
+                    <input type="hidden" id="price-input" name="price">
+
+                    <div class="form-group">
+                        <label for="client-name">Your Full Name:</label>
+                        <input type="text" id="client-name" name="client_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="business-name">Your Business Name:</label>
+                        <input type="text" id="business-name" name="business_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone-number">Phone Number (WhatsApp No. if preferred):</label>
+                        <input type="tel" id="phone-number" name="phone_number" placeholder="e.g., 8932006582" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="submit-button">PLACE ORDER & PROCEED TO PAYMENT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ls Ad Agency. All Rights Reserved. | Meta Ads Expert</p>
+            <p>Contact: <a href="https://wa.me/8932006582" target="_blank">WhatsApp 8932006582</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+      </html>
+      
